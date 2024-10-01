@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="education.css" />
+    <link rel="stylesheet" href="work.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- main page -->
+
+    <div class="container">
+      <div class="left-section">
+        <h1>
+          Hi there !<br />
+          I am Numan Javed Shah
+        </h1>
+        <p>I'm a full stack web developer</p>
+        <a href="images/" download="Resume.pdf" class="btn">Download CV</a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/numan-javed-shah-4377462b7/" target="_blank"><box-icon name='linkedin' type='logo' ></box-icon></a>
+          <a href="https://github.com/numanjavedshah" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
+          <a href="https://www.instagram.com/xyed_numan_shah?igsh=ZjRwcHRmM2s3YTJp " target="_blank"><box-icon type='logo' name='instagram'></box-icon></a>
+        </div>
+      </div>
+      <div class="right-section">
+        <img
+          src="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+      </div>
+    </div>
+    <hr>
+
+    <!-- section -->
+    <section id="about" class="about-section">
+      <h1>About Me<box-icon name='male'></box-icon></h1>
+      <div class="about-content">
+       
+        <div class="images-container">
+          <img src="images/html 2.png" alt="Image 1" class="active" />
+          <img src="images/css 2.png" alt="Image 2" />
+          <img src="images/bootstrap.png" alt="Image 3" />
+          <img src="images/js 2.png" alt="Image 4" />
+          <img src="images/php 3.png" alt="Image 5" />
+          <img src="images/my sql 3.png" alt="Image 6" />
+        </div>
+
+        <div class="text-content">
+          <h2>I'm Numan</h2>
+          <h3>Full Stack Web Developer</h3>
+          <p>
+            I specialize in creating dynamic and responsive websites using
+            modern technologies. I have experience with both front-end and
+            back-end development, including HTML, CSS, JavaScript, php, and databases like  MySQL. My passion
+            is to build efficient, user-friendly web applications that solve
+            real-world problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section -->
+   
+    <section id="education" class="education-section">
+      <h1>My Education</h1>
+      <p class="quote">The roots of education are bitter, but the fruit is sweet.</p>
+      
+      <div class="edu-blocks">
+
+          <div class="edu-block">
+              <img src="images/uet.jpeg" alt="Certification Image">
+              <h2>Full Stack Web Development Certification</h2>
+              <h3>University of Engineering and Technology</h3>
+              <div class="year">Completed: 2023</div>
+              <div class="status">Certified</div>
+          </div>
+        
+          <div class="edu-block">
+              <img src="images/vu.jpg" alt="Bachelor's Degree Image">
+              <h2>Bachelor of Science in Computer Science</h2>
+              <h3>Virtual University</h3>
+              <div class="year">Started in: 2023</div>
+              <div class="status">Ongoing</div>
+          </div>
+          
+          <div class="edu-block">
+              <img src="images/clg.jpeg" alt="Master's Degree Image">
+              <h2>Intermediate of Computer Science</h2>
+              <h3>Govt. Islamia College, Lahore</h3>
+              <div class="year">Completed: 2023</div>
+              <div class="status">Degree Completed</div>
+          </div>
+      </div>
+  </section>
+
+ <!-- work section -->
+
+ <section id="work" class="work-section">
+  <h1>My Work Experience</h1>
+
+  <div class="work-timeline">
+      
+      <div class="work-item right">
+          <h3>Web Developer</h3>
+          <p>Developed dynamic web applications using modern technologies.</p>
+      </div>
+
+    
+      <div class="work-item left">
+          <h3>Full Stack Developer</h3>
+          <p>Worked on multiple projects from planning to deployment.</p>
+      </div>
+
+    
+      <div class="work-item right">
+          <h3>Frontend Engineer</h3>
+          <p>Designed and implemented intuitive user interfaces.</p>
+      </div>
+
+      <!-- Left Work Item 4 -->
+      <div class="work-item left">
+          <h3>Backend Developer</h3>
+          <p>Created robust APIs and optimized database structures.</p>
+      </div>
+
+      <!-- Right Work Item 5 -->
+      <div class="work-item right">
+          <h3>Project Manager</h3>
+          <p>Led project teams to successful and timely deliveries.</p>
+      </div>
+
+      <!-- Left Work Item 6 -->
+      <div class="work-item left">
+          <h3>Software Engineer</h3>
+          <p>Contributed to the architecture of scalable software systems.</p>
+      </div>
+  </div>
+</section>
+
+<div class="form-container">
+  <div class="form-header">
+      <h2>Hire Me as Your Web Developer</h2>
+      <p>Let's create something amazing together!</p>
+  </div>
+  <form action="hireme.php" method="POST">
+      <div class="mb-3">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+      </div>
+      <div class="mb-3">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+      </div>
+      <div class="mb-3">
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number">
+      </div>
+      <div class="mb-3">
+          <textarea class="form-control" id="project" name="project" rows="5" placeholder="Tell me about your project" required></textarea>
+      </div>
+      <button type="submit" value="submit" >Submit</button>
+  </form>
+</div>
+
+<!-- footer -->
+
+<footer class="footer">
+  <div class="footer-left">
+      <h3>Numan's Portfolio</h3>
+      <p>Thank you for visiting my personal portfolio website. <br> Connect with me over social or you can connect with me by chat!.</p>
+  </div>
+  
+  <div class="footer-center">
+      <h3>Quick Links</h3>
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Education</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </div>
+  
+  <div class="footer-right">
+      <h3>Contact Info</h3>
+      <p>Phone: +92 3007685297</p>
+      <p>Email: numanjavedshah@gmail.com</p>
+      <p>Address: China Scheme, Lahore, Pakistan</p>
+      
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/in/numanjaved" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/numanjaved" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+  </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+
+  </body>
+</html>
